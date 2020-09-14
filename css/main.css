@@ -87,6 +87,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*================MAIN PAGE STYLES==========================================*/
+
+figure{
+  margin: 0;
+  
+}
+
+img{
+  width: 100%;
+}
+
+.hero-area{
+  background: url(/img/hero-image.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+footer .social-media{
+  width: 12.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

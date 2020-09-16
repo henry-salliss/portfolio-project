@@ -87,22 +87,130 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/*===================BASE STYLES FOR THE PAGE==================================*/
+  html{
+    font-size: 16px;
+  }
+
+  body{
+    font-family: 'Asap', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    background-color: ;
+  }
+
+  ul,
+  ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 3.125em;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  h2{
+    font-family: 'Play', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  h3{
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  p{
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+    line-height: 1.285;
+  }
+
+  figure{
+    margin: 0;
+    
+  }
+  
+  img{
+    width: 100%;
+  }
+
+  address{
+    font-style: normal;
+  }
+
+.content-wrapper{
+  width: 90%;
+  margin: 50px 0;
+}
+
+/*==================HEADER STYLES======================================================*/
+
+header{
+  padding: 15px;
+  background-color: #1A1A1D;
+}
+
+header .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 30px;
+}
+
+header nav ul li{
+  font-size: 1.2em;
+}
+
+header nav ul li a {
+  color: #f2e3da;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+header nav ul li a:hover{
+  background-color: #4E4E50;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 /*================MAIN PAGE STYLES==========================================*/
 
-figure{
-  margin: 0;
-  
-}
 
-img{
-  width: 100%;
-}
 
 .hero-area{
   background: url(/img/hero-image.jpg) center;
   background-position: center;
   background-size: cover;
   min-height: 500px;
+  background-color: black;
 }
 
 footer .social-media{

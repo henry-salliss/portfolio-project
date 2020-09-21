@@ -97,7 +97,6 @@ textarea {
     font-family: 'Asap', sans-serif;
     font-size: 1em;
     text-align: left;
-    background-color: ;
   }
 
   ul,
@@ -185,7 +184,6 @@ header nav ul{
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding-right: 30px;
 }
 
 header nav ul li{
@@ -265,6 +263,7 @@ header nav ul li a:hover{
 .skills{
   font-family: 'Montserrat', sans-serif;
   list-style: disc;
+  padding-top: 10%;
 }
 
 
@@ -292,7 +291,16 @@ header nav ul li a:hover{
 #work article img{
   width: 80%;
   height: 80%;
+  border: 1px solid black;
+  box-shadow: 0 8px 17px #6c757d, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 1s;
 }
+
+
+#work article img:hover{
+  transform: scale(1.1);
+}
+
 
 #work article{
   padding: 5% 0;
@@ -330,14 +338,28 @@ header nav ul li a:hover{
   padding: 5% 0;
 }
 
-#contact button{
+#contact article{
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
+.social-media i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+}
+
+#contact a{
+  color: #f2e3da;
+}
+
+#contact button{
+  background-color: #4E4E50;
+  padding: 5%;
+  margin-left: 40%;
+}
 /*====================FOOTER STYLES==========================================*/
 
 footer{
@@ -350,12 +372,10 @@ footer{
 
 footer p{
   margin: 0;
+  text-align: center;
 }
-
-footer .social-icons{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.copyright{
+  padding: 5% 0;
 }
 
 

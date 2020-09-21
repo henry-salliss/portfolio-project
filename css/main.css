@@ -105,6 +105,7 @@ textarea {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: #f2e3da;
   }
 
   a{
@@ -112,10 +113,10 @@ textarea {
   }
 
   h1{
-    font-family: 'Acme', sans-serif;
     font-size: 3.125em;
     font-weight: 700;
     margin: 0;
+    color: #f2e3da;
   }
 
   h2{
@@ -123,6 +124,7 @@ textarea {
     font-size: 2em;
     font-weight: 500;
     margin: 0;
+    color: #f2e3da;
   }
 
   h3{
@@ -130,12 +132,14 @@ textarea {
     font-size: 1.5em;
     font-weight: 200;
     margin: 0;
+    color: #f2e3da;
   }
 
   p{
-    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    line-height: 1.285;
+    line-height: 1.5;
+    color: #f2e3da;
   }
 
   figure{
@@ -153,7 +157,6 @@ textarea {
 
 .content-wrapper{
   width: 90%;
-  margin: 50px 0;
 }
 
 /*==================HEADER STYLES======================================================*/
@@ -186,13 +189,14 @@ header nav ul{
 }
 
 header nav ul li{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 header nav ul li a {
   color: #f2e3da;
   padding: 10px;
-  border-radius: 15%;
+  border-radius: 20%;
+  text-transform: uppercase;
 }
 
 header nav ul li a:hover{
@@ -206,15 +210,152 @@ header nav ul li a:hover{
 
 
 .hero-area{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
   background: url(/img/hero-image.jpg) center;
   background-position: center;
   background-size: cover;
   min-height: 500px;
   background-color: black;
+  padding-top:5%;
+  color: #f2e3da;
 }
 
-footer .social-media{
-  width: 12.5em;
+.hero-area img{
+  padding-top: 10%;
+}
+
+.hero-area h1{
+  font-size: 2em;
+}
+
+
+
+
+
+/*===========================ABOUT STYLES============================*/
+
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #1A1A1D;
+  font-size: 0.875em;
+  padding: 10% 5%;
+}
+
+#about .content-wrapper{
+  width: 90%;
+}
+
+#about .intro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#about figure{
+  border: solid 1px #f2e3da;
+  margin: 5% 0;
+}
+
+.skills{
+  font-family: 'Montserrat', sans-serif;
+  list-style: disc;
+}
+
+
+
+
+/*======================WORK STYLES====================================*/
+
+#work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #1A1A1D;
+  padding-bottom: 15%;
+}
+
+#work .projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+#work article img{
+  width: 80%;
+  height: 80%;
+}
+
+#work article{
+  padding: 5% 0;
+}
+
+#work h2{
+  font-size: 1.75em;
+  margin-bottom: 60px;
+}
+
+#work p{
+  text-decoration: underline;
+  padding-bottom: 5%;
+}
+
+
+
+
+/*==========================CONTACT STYLES==============================*/
+
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #1a1a1d;
+}
+
+#contact h3{
+  font-size: 1.5em;
+  padding-top: 5%;
+}
+
+#contact p{
+  padding: 5% 0;
+}
+
+#contact button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+/*====================FOOTER STYLES==========================================*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #1A1A1D;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer .social-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 

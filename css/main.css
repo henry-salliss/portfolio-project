@@ -112,7 +112,7 @@ textarea {
   }
 
   h1{
-    font-size: 3.125em;
+    font-size: 2em;
     font-weight: 700;
     margin: 0;
     color: #f2e3da;
@@ -173,6 +173,24 @@ header .content-wrapper{
   margin: 0;
 }
 
+header .logo{
+  font-size: 2.2em;
+  padding-bottom: 5%;
+  
+}
+
+.logo a{
+  color: white;
+}
+
+.header-divider{
+  width: 100%;
+  height: 1px;
+  border: 1px solid #f2e3da;
+  background-color: #f2e3da;
+  margin-bottom: 20px;
+}
+
 header nav{
   display: flex;
   justify-content: center;
@@ -203,6 +221,8 @@ header nav ul li a:hover{
   transition-duration: 0.5s;
 }
 
+
+
 /*================MAIN PAGE STYLES==========================================*/
 
 
@@ -225,7 +245,7 @@ header nav ul li a:hover{
 }
 
 .hero-area h1{
-  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -253,6 +273,15 @@ header nav ul li a:hover{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+}
+
+#about h3{
+  padding: 0 5% 5% 0;
+  text-decoration: underline;
+}
+
+#about .intro ul{
+  list-style-type: disc;
 }
 
 #about figure{
@@ -353,12 +382,12 @@ header nav ul li a:hover{
 
 #contact a{
   color: #f2e3da;
+  font-size: 0.875em;
 }
 
 #contact button{
   background-color: #4E4E50;
-  padding: 5%;
-  margin-left: 40%;
+  padding: 1%;
 }
 /*====================FOOTER STYLES==========================================*/
 
@@ -368,6 +397,7 @@ footer{
   align-items: center;
   flex-flow: row wrap;
   background-color: #1A1A1D;
+  border-top: 1px solid #f2e3da;
 }
 
 footer p{
@@ -377,6 +407,273 @@ footer p{
 .copyright{
   padding: 5% 0;
 }
+
+
+/*========================MEDIA QUERY FOR TABLETS AND IPADS=============================================*/
+
+@media only screen and (min-width: 768px){
+.content-wrapper{
+  max-width: 640px;
+}
+
+h1{
+  font-size: 3.5em;
+  font-weight: 800;
+  margin: 0;
+  color: #f2e3da;
+}
+
+h2{
+  font-family: 'Play', sans-serif;
+  font-size: 3em;
+}
+
+h3{
+  font-family: 'Archivo', sans-serif;
+  font-size: 2.5em;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75em;
+  line-height: 2;
+}
+
+ul{
+  font-size: 1.5em;
+}
+
+/*================HEADER STYLES=====================*/
+
+header .content-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+
+header .logo{
+  font-size: 1.75em;
+  width: 40%;
+  padding: 0;
+}
+
+.header-divider{
+  display: none;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+header nav ul li{
+  font-size: 0.875em;
+}
+
+/*=============================HERO AREA STLYES=========================*/
+
+.hero-area h1{
+  font-size: 3.125em;
+}
+
+
+
+
+/*============================ABOUT STYLES=============================*/
+
+#about{
+  font-size: 0.75em;
+}
+
+#about .content-wrapper{
+  width: 90%;
+}
+
+#about .intro ul{
+  list-style-type: disc;
+}
+
+#about figure{
+  border: solid 1px #f2e3da;
+  margin: 5% 0;
+}
+
+.skills{
+  font-family: 'Montserrat', sans-serif;
+  list-style: disc;
+  padding-top: 10%;
+}
+
+
+
+/*==================================CONTACT STYLES================================*/
+
+#contact h3{
+  font-size: 2em;
+  padding-top: 5%;
+}
+
+#contact p{
+  font-size: 1.25em ;
+  padding: 5% 0;
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.social-media i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8em;
+}
+
+.social-media p{
+  width: 50%;
+}
+
+#contact a{
+  color: #f2e3da;
+  font-size: 0.875em;
+}
+
+#contact button{
+  background-color: #4E4E50;
+  padding: 1%;
+}
+
+/*============================FOOTER STYLES=======================================*/
+
+.copyright{
+  font-size: 1em;
+}
+}
+
+/*========================DESKTOP AND LAPTOP MEDIA QUERY===================================*/
+@media only screen and (min-width: 1200px){
+  .content-wrapper{
+    max-width: 1200px;
+  }
+  
+/*==========================HEADER STYLES==================================================*/
+
+header .content-wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  /*padding: 15px 0; */
+}
+
+
+header .logo{
+  font-size: 2em;
+  width: 40%;
+  padding: 0;
+}
+
+
+header nav ul li a{
+  padding: 20px;
+  border-radius: 100%;
+}
+
+/*========================HERO AREA===================================*/  
+
+
+.hero-area h1{
+  font-size: 4em;
+}
+
+/*==============================ABOUT AREA============================*/
+
+
+
+#about{
+  font-size: 1em;
+  padding: 5% 5%;
+}
+
+
+#about figure{
+  border: solid 1px #f2e3da;
+  margin: 5% 0;
+  width: 70%;
+  height: auto;
+}
+
+/*================================WORK STYLES========================*/ 
+
+
+#work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #1A1A1D;
+  padding-bottom: 15%;
+}
+
+#work .projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+#work article{
+  width: 34%;
+  margin-right: 10%;
+}
+
+
+#work article img{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+
+
+#work h2{
+  font-size: 2em;
+  margin-bottom: 60px;
+}
+
+#work p{
+  text-decoration: underline;
+  padding-bottom: 5%;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

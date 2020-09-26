@@ -198,17 +198,17 @@ header nav{
   flex-direction: row;
 }
 
-header nav ul{
+nav ul{
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-header nav ul li{
+nav ul li{
   font-size: 1em;
 }
 
-header nav ul li a {
+nav ul li a {
   color: #f2e3da;
   padding: 10px;
   border-radius: 20%;

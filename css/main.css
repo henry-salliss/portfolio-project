@@ -209,9 +209,8 @@ nav ul li{
 }
 
 nav ul li a {
+  padding: 20px;
   color: #f2e3da;
-  padding: 10px;
-  border-radius: 20%;
   text-transform: uppercase;
 }
 
@@ -219,6 +218,7 @@ header nav ul li a:hover{
   background-color: #4E4E50;
   transition: ease-in-out;
   transition-duration: 0.5s;
+  border-radius: 0;
 }
 
 
@@ -373,22 +373,34 @@ header nav ul li a:hover{
   align-items: center;
 }
 
-.social-media i{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#linkedin,
+#facebook,
+#twitter,
+#github{
+  margin-left: 40%;
+  text-align: center;
+}
+
+.social-media a{
+  color: #fff;
   font-size: 4em;
 }
 
-#contact a{
-  color: #f2e3da;
-  font-size: 0.875em;
-}
-
-#contact button{
-  background-color: #4E4E50;
+.email-button{
+  background-color: #EB7035;
+  box-shadow: 0 0 0 0;
+  border: 1px #EB7035 solid;
+  border-radius: 3px;
   padding: 1%;
 }
+
+.email-button a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0%;
+}
+
+
 /*====================FOOTER STYLES==========================================*/
 
 footer{
@@ -515,37 +527,50 @@ header nav ul li{
   padding-top: 5%;
 }
 
-#contact p{
+#contact address p{
   font-size: 1.25em ;
   padding: 5% 0;
 }
-
 .social-media{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
-}
-.social-media i{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 8em;
+  flex-flow: row wrap;
+}
+
+.social-media{
+  margin-left: 10%;
+}
+
+#linkedin,
+#facebook,
+#twitter,
+#github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.social-media a{
+  color: #fff;
+  font-size: 4em;
 }
 
 .social-media p{
-  width: 50%;
+  margin-right: 20%;
 }
 
-#contact a{
-  color: #f2e3da;
-  font-size: 0.875em;
+.email-button{
+  border-radius: 3px;
 }
 
-#contact button{
-  background-color: #4E4E50;
-  padding: 1%;
+.email-button a{
+  padding: 0;
 }
+
+
+
 
 /*============================FOOTER STYLES=======================================*/
 
@@ -594,7 +619,7 @@ header nav ul li a{
 
 
 #about{
-  font-size: 1em;
+  font-size: 0.9em;
   padding: 5% 5%;
 }
 
@@ -610,21 +635,10 @@ header nav ul li a{
 
 
 #work{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  background-color: #1A1A1D;
-  padding-bottom: 15%;
+  padding-bottom: 0%;
 }
 
-#work .projects{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  text-align: center;
-}
+
 
 #work article{
   width: 34%;
@@ -643,7 +657,7 @@ header nav ul li a{
 
 
 #work h2{
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 60px;
 }
 
@@ -653,6 +667,61 @@ header nav ul li a{
   font-size: 1em;
 }
 
+/*==========================================CONTACT STYLES FOR DESKTOP AND LAPTOP=====================*/
+
+
+#contact h3{
+  font-size: 2em;
+  padding-top: 5%;
+}
+
+#contact article p{
+  font-size: 1.25em ;
+  padding: 5% 0;
+}
+
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: 10%;
+}
+
+
+.email-button a{
+  padding: 0;
+}
+
+
+
+#linkedin,
+#facebook,
+#twitter,
+#github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.social-media a{
+  color: #fff;
+  font-size: 4em;
+}
+
+.social-media p{
+  margin-right: 10%;
+}
+
+
+/*==================================FOOTER STYLES==============================*/
+
+.copyright{
+  padding: 5% 0;
+  font-size: 0.6em;
+}
 
 
 
@@ -875,4 +944,4 @@ header nav ul li a{
     page-break-after: avoid;
   }
 }
-
+}

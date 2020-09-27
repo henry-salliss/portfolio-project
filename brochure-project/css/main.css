@@ -9,17 +9,7 @@ body {
 	align-items: center;
 	flex-flow: row wrap;
 	font-size: 1em;
-}
-
-.container{
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	flex-shrink: 1;
-	width: 90%;
-	max-width: 1200px;
+	padding: 0 5%;
 }
 
 h1,
@@ -50,7 +40,31 @@ p {
 	padding: 0 30px;
 }
 
-/*The widths are in a percentage!*/
+.content-wrapper{
+	width: 360px;
+}
+/*====================HEADER STYLES==================================*/
+
+
+header .content-wrapper{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	font-size: 2em;
+	padding: 10%;
+}
+
+
 header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
@@ -61,21 +75,31 @@ header {
 	width: 100%;
 }
 
-header h1 {
-	margin: 0;
-	padding-top: 38px ;
-	padding-left: 30px;
+.header-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	max-width: 90%;
 }
+
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 	list-style: none;
+
 }
 header nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: column;
 	margin: 0;
 	padding: 0;
 }
@@ -86,6 +110,7 @@ header nav ul li {
 	padding-bottom: 10px;
 	display: flex;
 	justify-content: center;
+	padding-right: 10%;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -182,6 +207,15 @@ footer span {
 
 
 @media only screen and (min-width: 768px) {
+
+	header nav ul{
+		flex-flow: row;
+	}
+
+	.logo{
+		padding-top: 0;
+	}
+
 	.bottom-section{
 		justify-content: space-between;
 		align-items: flex-start;
@@ -198,12 +232,19 @@ footer span {
         border-left: 1px solid #eee;
         border-right: 1px solid #eee;
         padding: 0 20px;
-    }
+	}
+	
+	footer{
+		padding-bottom: z;
+	}
 }
 
 @media only screen and (min-width:1200px){
 	
+	header{
+		width: 87.8%;
 	}
+
 	header h1{
 		width: 30%;
 		border-bottom: none;
@@ -216,6 +257,7 @@ footer span {
 	header nav ul{
 		display: flex;
 		justify-content: space-between;
+		margin-right: 60%;
 	}
 	
 }

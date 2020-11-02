@@ -51,22 +51,6 @@ body {
 
 
 
-
-
-
-
-@media only screen and (min-width: 768px){
-  .answer {
-    top:53%;
-    left:51%;
-}
-}
-
-
-
-
-
-
 @media only screen and (min-width: 1200px) {
   .answer {
     top:65%;

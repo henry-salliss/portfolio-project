@@ -110,17 +110,18 @@ body {
   color: #f16059;
 }
 
-.answer {
-  position:absolute;
-  width:14%;
-  top:53%;
-  left:51%;
-  margin-top:-60px;
-  margin-left:-65px;
-  font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
-  color: white;
+#ball{
+  display: flex;
 }
 
+.answer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+  color: blue;
+}
 #questionButton {
   font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
   border-radius: 5px;
@@ -138,10 +139,7 @@ body {
 
 
 @media only screen and (min-width: 1200px) {
-  .answer {
-    top:65%;
-    left:48%;
-  }
+  
 
 }
 

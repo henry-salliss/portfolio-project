@@ -105,7 +105,7 @@ h1 {
 
 h2 {
   font-family: "Play", sans-serif;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 500;
   margin: 0;
   color: #f2e3da;
@@ -383,9 +383,9 @@ header nav ul li a:hover {
 }
 
 .email-button {
-  background-color: #eb7035;
+  background-color: #091433;
   box-shadow: 0 0 0 0;
-  border: 1px #eb7035 solid;
+  border: 1px #070200 solid;
   border-radius: 3px;
   padding: 1%;
 }

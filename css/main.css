@@ -50,12 +50,6 @@ hr {
   padding: 0;
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
 audio,
 canvas,
 iframe,
@@ -65,19 +59,11 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
-
-/*
- * Allow only vertical resizing of textareas.
- */
 
 textarea {
   resize: vertical;
@@ -87,85 +73,83 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 /*===================BASE STYLES FOR THE PAGE==================================*/
-  html{
-    font-size: 16px;
-  }
+html {
+  font-size: 16px;
+}
 
-  body{
-    font-family: 'Asap', sans-serif;
-    font-size: 1em;
-    text-align: left;
-  }
+body {
+  font-family: "Asap", sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
 
-  ul,
-  ol{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: #f2e3da;
-  }
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #f2e3da;
+}
 
-  a{
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  h1{
-    font-size: 2em;
-    font-weight: 700;
-    margin: 0;
-    color: #f2e3da;
-  }
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+  color: #f2e3da;
+}
 
-  h2{
-    font-family: 'Play', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    margin: 0;
-    color: #f2e3da;
-  }
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+  color: #f2e3da;
+}
 
-  h3{
-    font-family: 'Archivo', sans-serif;
-    font-size: 1.5em;
-    font-weight: 200;
-    margin: 0;
-    color: #f2e3da;
-  }
+h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin: 0;
+  color: #f2e3da;
+}
 
-  p{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    line-height: 1.5;
-    color: #f2e3da;
-  }
+p {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  color: #f2e3da;
+}
 
-  figure{
-    margin: 0;
-    
-  }
-  
-  img{
-    width: 100%;
-  }
+figure {
+  margin: 0;
+}
 
-  address{
-    font-style: normal;
-  }
+img {
+  width: 100%;
+}
 
-.content-wrapper{
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
   width: 90%;
 }
 
 /*==================HEADER STYLES======================================================*/
 
-header{
+header {
   padding: 15px;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
 }
 
-header .content-wrapper{
+header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,17 +157,16 @@ header .content-wrapper{
   margin: 0;
 }
 
-header .logo{
+header .logo {
   font-size: 2.2em;
   padding-bottom: 5%;
-  
 }
 
-.logo a{
+.logo a {
   color: white;
 }
 
-.header-divider{
+.header-divider {
   width: 100%;
   height: 1px;
   border: 1px solid #f2e3da;
@@ -191,20 +174,20 @@ header .logo{
   margin-bottom: 20px;
 }
 
-header nav{
+header nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-nav ul li{
+nav ul li {
   font-size: 1em;
 }
 
@@ -214,20 +197,16 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-header nav ul li a:hover{
-  background-color: #4E4E50;
+header nav ul li a:hover {
+  background-color: #4e4e50;
   transition: ease-in-out;
   transition-duration: 0.5s;
   border-radius: 0;
 }
 
-
-
 /*================MAIN PAGE STYLES==========================================*/
 
-
-
-.hero-area{
+.hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -236,107 +215,93 @@ header nav ul li a:hover{
   background-size: cover;
   min-height: 500px;
   background-color: black;
-  padding-top:5%;
+  padding-top: 5%;
   color: #f2e3da;
 }
 
-.hero-area img{
+.hero-area img {
   padding-top: 10%;
 }
 
-.hero-area h1{
+.hero-area h1 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hero-area span{
+.hero-area span {
   color: red;
   font-family: monospace;
 }
 
-.buttonlink{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2%;
-}
-
-.hero-area button{
+.hero-area button {
   padding: 2%;
   background-color: skyblue;
   border-radius: 10%;
   font-family: monospace;
- opacity: 0.5;
+  opacity: 0.5;
 }
 
-.hero-area button:hover{
+.hero-area button:hover {
   background-color: slateblue;
   transition-duration: 1s;
   cursor: pointer;
   opacity: 1;
 }
 
-
-
-
-
 /*===========================ABOUT STYLES============================*/
 
-#about{
+#about {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
   font-size: 0.875em;
   padding: 10% 5%;
 }
 
-#about .content-wrapper{
+#about .content-wrapper {
   width: 90%;
 }
 
-#about .intro{
+#about .intro {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
 
-#about h3{
+#about h3 {
   padding: 0 5% 5% 0;
   text-decoration: underline;
 }
 
-#about .intro ul{
+#about .intro ul {
   list-style-type: disc;
 }
 
-#about figure{
+#about figure {
   border: solid 1px #f2e3da;
   margin: 5% 0;
 }
 
-.skills{
-  font-family: 'Montserrat', sans-serif;
+.skills {
+  font-family: "Montserrat", sans-serif;
   list-style: disc;
   padding-top: 10%;
 }
 
-
-
-
 /*======================WORK STYLES====================================*/
 
-#work{
+#work {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
   padding-bottom: 15%;
 }
 
-#work .projects{
+#work .projects {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,7 +309,7 @@ header nav ul li a:hover{
   text-align: center;
 }
 
-#work article img{
+#work article img {
   width: 80%;
   height: 80%;
   border: 1px solid black;
@@ -352,36 +317,35 @@ header nav ul li a:hover{
   transition: 1s;
 }
 
-
-#work article img:hover{
+#work article img:hover {
   transform: scale(1.1);
 }
 
-
-#work article{
+#work article {
   padding: 5% 0;
 }
 
-#work h2{
+#work h2 {
   font-size: 1.75em;
   margin-bottom: 60px;
 }
 
-#work p{
+#work p {
   padding-bottom: 5%;
 }
 
-#javaheading{
+#javaheading {
   padding-top: 10%;
   padding-bottom: 5%;
   text-align: left;
 }
 
-
+/* #html-img {
+} */
 
 /*==========================CONTACT STYLES==============================*/
 
-#contact{
+#contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,16 +353,16 @@ header nav ul li a:hover{
   background-color: #1a1a1d;
 }
 
-#contact h3{
+#contact h3 {
   font-size: 1.5em;
   padding-top: 5%;
 }
 
-#contact p{
+#contact p {
   padding: 5% 0;
 }
 
-#contact article{
+#contact article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,367 +371,333 @@ header nav ul li a:hover{
 #linkedin,
 #facebook,
 #twitter,
-#github{
+#github {
   margin-left: 40%;
   text-align: center;
 }
 
-.social-media a{
+.social-media a {
   color: #fff;
   font-size: 4em;
 }
 
-.email-button{
-  background-color: #EB7035;
+.email-button {
+  background-color: #eb7035;
   box-shadow: 0 0 0 0;
-  border: 1px #EB7035 solid;
+  border: 1px #eb7035 solid;
   border-radius: 3px;
   padding: 1%;
 }
 
-.email-button a{
+.email-button a {
   text-decoration: none;
   color: #fff;
   padding: 0%;
 }
 
-
 /*====================FOOTER STYLES==========================================*/
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
   border-top: 1px solid #f2e3da;
 }
 
-footer p{
+footer p {
   margin: 0;
   text-align: center;
 }
-.copyright{
+.copyright {
   padding: 5% 0;
 }
-
 
 /*========================MEDIA QUERY FOR TABLETS AND IPADS=============================================*/
 
-@media only screen and (min-width: 768px){
-.content-wrapper{
-  max-width: 640px;
-}
+@media only screen and (min-width: 768px) {
+  .content-wrapper {
+    max-width: 640px;
+  }
 
-h1{
-  font-size: 3.5em;
-  font-weight: 800;
-  margin: 0;
-  color: #f2e3da;
-}
+  h1 {
+    font-size: 3.5em;
+    font-weight: 800;
+    margin: 0;
+    color: #f2e3da;
+  }
 
-h2{
-  font-family: 'Play', sans-serif;
-  font-size: 3em;
-}
+  h2 {
+    font-family: "Play", sans-serif;
+    font-size: 3em;
+  }
 
-h3{
-  font-family: 'Archivo', sans-serif;
-  font-size: 2.5em;
-}
+  h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 2.5em;
+  }
 
-p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
-  line-height: 2;
-}
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.75em;
+    line-height: 2;
+  }
 
-ul{
-  font-size: 1.5em;
-}
+  ul {
+    font-size: 1.5em;
+  }
 
-/*================HEADER STYLES=====================*/
+  /*================HEADER STYLES=====================*/
 
-header .content-wrapper{
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 0;
-}
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
 
+  header .logo {
+    font-size: 1.75em;
+    width: 40%;
+    padding: 0;
+  }
 
-header .logo{
-  font-size: 1.75em;
-  width: 40%;
-  padding: 0;
-}
+  .header-divider {
+    display: none;
+  }
 
-.header-divider{
-  display: none;
-}
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
 
-header nav ul{
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-}
+  header nav ul li {
+    font-size: 0.875em;
+  }
 
-header nav ul li{
-  font-size: 0.875em;
-}
+  /*=============================HERO AREA STLYES=========================*/
 
-/*=============================HERO AREA STLYES=========================*/
+  .hero-area h1 {
+    font-size: 3.125em;
+  }
 
-.hero-area h1{
-  font-size: 3.125em;
-}
+  /*============================ABOUT STYLES=============================*/
 
+  #about {
+    font-size: 0.75em;
+  }
 
+  #about .content-wrapper {
+    width: 90%;
+  }
 
+  #about .intro ul {
+    list-style-type: disc;
+  }
 
-/*============================ABOUT STYLES=============================*/
+  #about figure {
+    border: solid 1px #f2e3da;
+    margin: 5% 0;
+  }
 
-#about{
-  font-size: 0.75em;
-}
+  .skills {
+    font-family: "Montserrat", sans-serif;
+    list-style: disc;
+    padding-top: 10%;
+  }
 
-#about .content-wrapper{
-  width: 90%;
-}
+  /*==================================CONTACT STYLES================================*/
 
-#about .intro ul{
-  list-style-type: disc;
-}
+  #contact h3 {
+    font-size: 2em;
+    padding-top: 5%;
+  }
 
-#about figure{
-  border: solid 1px #f2e3da;
-  margin: 5% 0;
-}
+  #contact address p {
+    font-size: 1.25em;
+    padding: 5% 0;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-.skills{
-  font-family: 'Montserrat', sans-serif;
-  list-style: disc;
-  padding-top: 10%;
-}
+  .social-media {
+    margin-left: 10%;
+  }
 
+  #linkedin,
+  #facebook,
+  #twitter,
+  #github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
+  .social-media a {
+    color: #fff;
+    font-size: 4em;
+  }
 
-/*==================================CONTACT STYLES================================*/
+  .social-media p {
+    margin-right: 20%;
+  }
 
-#contact h3{
-  font-size: 2em;
-  padding-top: 5%;
-}
+  .email-button {
+    border-radius: 3px;
+  }
 
-#contact address p{
-  font-size: 1.25em ;
-  padding: 5% 0;
-}
-.social-media{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+  .email-button a {
+    padding: 0;
+  }
 
-.social-media{
-  margin-left: 10%;
-}
+  /*============================FOOTER STYLES=======================================*/
 
-#linkedin,
-#facebook,
-#twitter,
-#github{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.social-media a{
-  color: #fff;
-  font-size: 4em;
-}
-
-.social-media p{
-  margin-right: 20%;
-}
-
-.email-button{
-  border-radius: 3px;
-}
-
-.email-button a{
-  padding: 0;
-}
-
-
-
-
-/*============================FOOTER STYLES=======================================*/
-
-.copyright{
-  font-size: 1em;
-}
+  .copyright {
+    font-size: 1em;
+  }
 }
 
 /*========================DESKTOP AND LAPTOP MEDIA QUERY===================================*/
-@media only screen and (min-width: 1200px){
-  .content-wrapper{
+@media only screen and (min-width: 1200px) {
+  .content-wrapper {
     max-width: 1200px;
   }
-  
-/*==========================HEADER STYLES==================================================*/
 
-header .content-wrapper{
-  display: flex;
-  justify-content: space-between;
-  max-width: 1300px;
-  /*padding: 15px 0; */
-}
+  /*==========================HEADER STYLES==================================================*/
 
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    /*padding: 15px 0; */
+  }
 
-header .logo{
-  font-size: 2em;
-  width: 40%;
-  padding: 0;
-}
+  header .logo {
+    font-size: 2em;
+    width: 40%;
+    padding: 0;
+  }
 
+  header nav ul li a {
+    padding: 20px;
+    border-radius: 100%;
+  }
 
-header nav ul li a{
-  padding: 20px;
-  border-radius: 100%;
-}
+  /*========================HERO AREA===================================*/
 
-/*========================HERO AREA===================================*/  
+  .hero-area h1 {
+    font-size: 4em;
+  }
 
+  /*==============================ABOUT AREA============================*/
 
-.hero-area h1{
-  font-size: 4em;
-}
+  #about {
+    font-size: 0.9em;
+    padding: 5% 5%;
+  }
 
-/*==============================ABOUT AREA============================*/
+  #about figure {
+    border: solid 1px #f2e3da;
+    margin: 5% 0;
+    width: 70%;
+    height: auto;
+  }
 
+  /*================================WORK STYLES========================*/
 
+  #work {
+    padding-bottom: 0%;
+  }
 
-#about{
-  font-size: 0.9em;
-  padding: 5% 5%;
-}
+  #work article {
+    width: 34%;
+    margin-right: 10%;
+  }
 
+  #work article img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
 
-#about figure{
-  border: solid 1px #f2e3da;
-  margin: 5% 0;
-  width: 70%;
-  height: auto;
-}
+  #work h2 {
+    font-size: 3em;
+    margin-bottom: 60px;
+  }
 
-/*================================WORK STYLES========================*/ 
+  #work p {
+    padding-bottom: 5%;
+    font-size: 1em;
+  }
 
+  /*==========================================CONTACT STYLES FOR DESKTOP AND LAPTOP=====================*/
 
-#work{
-  padding-bottom: 0%;
-}
+  #contact h3 {
+    font-size: 2em;
+    padding-top: 5%;
+  }
 
+  #contact article p {
+    font-size: 1.25em;
+    padding: 5% 0;
+  }
 
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 10%;
+  }
 
-#work article{
-  width: 34%;
-  margin-right: 10%;
-}
+  .email-button a {
+    padding: 0;
+  }
 
+  #linkedin,
+  #facebook,
+  #twitter,
+  #github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-#work article img{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  height: auto;
+  .social-media a {
+    color: #fff;
+    font-size: 4em;
+  }
 
-}
+  .social-media p {
+    margin-right: 10%;
+  }
 
+  /*==================================FOOTER STYLES==============================*/
 
-#work h2{
-  font-size: 3em;
-  margin-bottom: 60px;
-}
-
-#work p{
-  padding-bottom: 5%;
-  font-size: 1em;
-}
-
-/*==========================================CONTACT STYLES FOR DESKTOP AND LAPTOP=====================*/
-
-
-#contact h3{
-  font-size: 2em;
-  padding-top: 5%;
-}
-
-#contact article p{
-  font-size: 1.25em ;
-  padding: 5% 0;
-}
-
-
-.social-media{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
-  margin-left: 10%;
-}
-
-
-.email-button a{
-  padding: 0;
-}
-
-
-
-#linkedin,
-#facebook,
-#twitter,
-#github{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.social-media a{
-  color: #fff;
-  font-size: 4em;
-}
-
-.social-media p{
-  margin-right: 10%;
-}
-
-
-/*==================================FOOTER STYLES==============================*/
-
-.copyright{
-  padding: 5% 0;
-  font-size: 0.6em;
-}
-
-
+  .copyright {
+    padding: 5% 0;
+    font-size: 0.6em;
+  }
 }
 
 /*====================================== HTML AND CSS WORK PAGE STYLES=======================*/
 
-
-
-.work-brief{
-  padding-top: 10%;
+.work-brief {
   list-style-type: disc;
-  padding-top: 25%;
+  padding-top: 10%;
   padding-bottom: 15%;
 }
 
-.html-hero-area{
+.html-hero-area {
   background-image: url(/img/htmldocbg2.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -777,65 +707,39 @@ header nav ul li a{
   justify-content: center;
 }
 
-.html-hero-area h1{
-  background-color:rgba(0, 0, 0, 0.5);
+.html-hero-area h1 {
+  color: white;
+  border-radius: 5%;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/*
-#second-contact h3{
-  font-size: 2em;
-  padding-top: 5%;
+.html-projects {
+  padding-top: 10%;
 }
 
-#second-contact article p{
-  font-size: 1.25em ;
-  padding: 5% 0;
-}
-*/
-
-#second-social-media p{
-  padding-right: 100px;
+#second-social-media p {
+  padding-right: 30%;
 }
 
+/* MEDIA QUERIES FOR HTML AND CSS WORK PAGE */
+@media only screen and (min-width: 768px) {
+  .html-headings {
+    font-size: 1.2em;
+  }
+  #second-social-media p {
+    padding-right: 0%;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 1200px) {
+  #work .projects {
+    padding-left: 7%;
+  }
+}
 
 /* ==========================================================================
    Helper classes
@@ -850,14 +754,7 @@ header nav ul li a{
   display: none !important;
 }
 
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
+/* other boilerplate styles */
 
 .sr-only {
   border: 0;
@@ -872,12 +769,6 @@ header nav ul li a{
   /* 1 */
 }
 
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
   clip: auto;
@@ -889,25 +780,9 @@ header nav ul li a{
   width: auto;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
 .invisible {
   visibility: hidden;
 }
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 
 .clearfix::before,
 .clearfix::after {
@@ -918,29 +793,6 @@ header nav ul li a{
 .clearfix::after {
   clear: both;
 }
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
 
 @media print {
   *,
@@ -966,10 +818,6 @@ header nav ul li a{
     content: " (" attr(title) ")";
   }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
   a[href^="#"]::after,
   a[href^="javascript:"]::after {
     content: "";
@@ -985,10 +833,6 @@ header nav ul li a{
     page-break-inside: avoid;
   }
 
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
   thead {
     display: table-header-group;
   }
@@ -1009,5 +853,4 @@ header nav ul li a{
   h3 {
     page-break-after: avoid;
   }
-}
 }

@@ -1,0 +1,137 @@
+[33mcommit dbe9a267a8109a387ae6f87d879ef116106ec1e9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Sat Feb 13 17:58:47 2021 +0000
+
+    first commit
+
+[33mcommit 86d94d52d63b8c7eb186eba6be0d69b9ea1db939[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Feb 1 16:48:57 2021 +0000
+
+    made final changes to pages for this latest update
+
+[33mcommit 65d266181b680a715c588c7e38a49aed1b8b138a[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Feb 1 16:22:25 2021 +0000
+
+    made first to 100 mobile responsive
+
+[33mcommit 4e9435a73179dc49c3b1b93c525a121242230531[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Feb 1 15:46:18 2021 +0000
+
+    added other projects to js work page and slightly adjusted styles on html work page and js work page
+
+[33mcommit 77b85b43e905627c802207bbe68ef97a332726cf[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Feb 1 14:49:40 2021 +0000
+
+    added first to 100 game
+
+[33mcommit f942065e9289f96f38e4c9ab81e20fe8407f4fa2[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Feb 1 14:11:00 2021 +0000
+
+    added styles to html work page and started work on new js page
+
+[33mcommit 667f9f4be1be2cdf0640476f6d01b7cb934f3065[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Nov 23 16:37:56 2020 +0000
+
+    modified css for java projects, also added new work page and button and styles
+
+[33mcommit f96c57f986328913e411301abbd810b97700d1c2[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Wed Nov 4 19:40:25 2020 +0000
+
+    added in js clock folder
+
+[33mcommit bc5d9f9d4abd5cd1c75401a4ebf9a9670c419003[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Nov 2 17:57:56 2020 +0000
+
+    changed css for 8 ball for the 2nd time
+
+[33mcommit 22db915eeafc2622e7dd0b611d4f1210026fb3f4[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Nov 2 17:43:47 2020 +0000
+
+    changed css for 8 ball
+
+[33mcommit 6863f4efca2ecece85cd002b64d1d9df391f644a[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Nov 2 16:42:14 2020 +0000
+
+    added 8 ball
+
+[33mcommit cbcda0cc296622e6cfc997164ba51431dce38d4d[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Tue Sep 29 20:41:59 2020 +0100
+
+    made responsive
+
+[33mcommit 5733708309d412b42eaf6aadab248a979287c423[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Sun Sep 27 20:58:19 2020 +0100
+
+    rectified some simple punctuation errors
+
+[33mcommit 90f065236f4647d0a0335bf4aa3c8581e939d3b2[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Sun Sep 27 20:49:57 2020 +0100
+
+    made rogue pickings responsive
+
+[33mcommit cb655e5b7d4ab596d078889acd604c7927602b25[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Sun Sep 27 19:19:03 2020 +0100
+
+    changed a couple of headings in the html file
+
+[33mcommit 8dfaac37575e5c4c6dc7ecfa313636dcd89b04eb[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Sun Sep 27 18:04:19 2020 +0100
+
+    added links to previous projects and finished main css
+
+[33mcommit abdc4e8e9a046db540e0a21ec40fb8327199df26[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Sat Sep 26 15:48:59 2020 +0100
+
+    added the unplugged project and sorted all the links
+
+[33mcommit ebf4b59b5d39c283332aeec44021a55c2973d5ae[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Thu Sep 24 21:28:33 2020 +0100
+
+    started on the desktop styles
+
+[33mcommit bb1c18d5cfea4ef4140adb1b237bc207cab543c9[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Sep 21 17:41:18 2020 +0100
+
+    added final touches to the mobile css
+
+[33mcommit 0cb187e0b696c313404b4bbc30665b5b22103e6d[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Sep 21 15:10:34 2020 +0100
+
+    added styles to the hero area, about area and the work section
+
+[33mcommit 773ea68e14c90c6437f6d8c3f5633dc70048bccc[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Wed Sep 16 20:26:32 2020 +0100
+
+    added styles to the nav and some to hero area
+
+[33mcommit d14d3197026479f9fc3b8ec2ce7eca40b4c2d92e[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Sep 14 17:53:06 2020 +0100
+
+    added almost all the semantic html markup
+
+[33mcommit 8473a8f655bcfa523836e12747531badfc2add28[m
+Author: Henry Salliss <henrysalliss@gmail.com>
+Date:   Mon Sep 14 16:00:20 2020 +0100
+
+    first commit
